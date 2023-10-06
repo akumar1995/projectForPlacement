@@ -1,0 +1,51 @@
+.parent{
+    display:grid;
+   grid-template-columns:auto auto auto auto;
+    margin:4%;
+  }
+  .cartadd_btn{
+   padding:10px 85px;
+    margin-bottom:50px ;
+    background-color:orange;
+    color:white;
+  }
+  .discount{
+    color:green;
+  }
+  .search_btn{
+    margin-top:50px;
+    margin-left:30%;
+    /* padding:10px 80px; */
+    font-size:30px;
+    color:green;
+  }
+  .brand{
+    width:200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  @media screen and (max-width:900px){
+    .parent{
+    display:grid;
+   grid-template-columns:auto auto auto;
+  
+  }
+  }
+  
+  @media screen and (max-width:700px){
+    .parent{
+    display:grid;
+   grid-template-columns:auto auto ;
+   
+  }
+  }
+  
+  @media screen and (max-width:400px){
+    .parent{
+    display:grid;
+   grid-template-columns:auto;
+  
+  }
+  }

@@ -1,0 +1,19 @@
+.delete_btn{
+    padding:10px 85px;
+     margin-bottom:50px  ;
+     margin-top:20px;
+     background-color:red;
+     color:white;
+   }
+   .payment_div{
+     margin:3% 39%;
+     
+   }
+   .payment_head{
+     color:green;
+   }
+   .order_button{
+    padding:10px 70px;
+     border:none;
+     background-color:orange;
+   }
